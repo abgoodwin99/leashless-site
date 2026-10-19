@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Leashless Support</title>
+<style>
+  :root { --bg: #ffffff; --text: #1c1c1e; --muted: #5b5b60; --line: #e2e2e6; --link: #b02a3a; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #141416; --text: #f2f2f4; --muted: #b0b0b6; --line: #2e2e33; --link: #f2737a; }
+  }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 8px; }
+  h2 { font-size: 1.25rem; line-height: 1.3; margin: 36px 0 8px; padding-top: 20px; border-top: 1px solid var(--line); }
+  p, ul, ol { margin: 0 0 14px; }
+  ul, ol { padding-left: 1.2em; }
+  li { margin-bottom: 6px; }
+  a { color: var(--link); }
+  .muted { color: var(--muted); font-size: 0.95rem; }
+  nav { font-size: 0.95rem; margin-bottom: 24px; }
+</style>
+</head>
+<body>
+<main>
+<nav><a href="index.html">Leashless</a> · <a href="privacy.html">Privacy Policy</a></nav>
+<h1>Leashless Support</h1>
+<p>Need help, or want to report a problem? Email <a href="mailto:support@leashless.info">support@leashless.info</a>. Please say which iPhone you have and which version of Leashless (Settings &gt; About).</p>
+<p>To report a bad answer, touch and hold it and tap <strong>Report This Response</strong>, or tap the flag under the latest answer. This opens an email with the app version and the name of the model in use. Your chat is not added. Paste in the answer only if you're happy to share it.</p>
+
+<h2>What is Leashless?</h2>
+<p>Leashless is a free AI chat app that runs entirely on your iPhone. After a one-time download of an AI model, it works without an internet connection. There are no accounts, ads or in-app purchases.</p>
+
+<h2>Which iPhones work?</h2>
+<p>iPhone 11, iPhone SE (3rd generation) or later, on iOS 17 or later. Leashless offers the best model your iPhone has the memory to run well (and that fits your free storage):</p>
+<ul>
+  <li><strong>Leashless Small</strong> (MiniCPM5 2B), about 1.4 GB, for iPhones with 4 GB of memory.</li>
+  <li><strong>Leashless Standard</strong> (Qwen3.5 4B), about 3.1 GB, for iPhones with 6 GB.</li>
+  <li><strong>Leashless Large</strong> (Gemma 4 E4B), about 5.2 GB, for iPhones with 8 GB or more.</li>
+</ul>
+<p>You can download, switch or delete models in Settings.</p>
+
+<h2>The download won't start or is stuck</h2>
+<ul>
+  <li>By default, models only download over Wi-Fi. Join Wi-Fi, or turn off <strong>Download over Wi-Fi only</strong>.</li>
+  <li>Check you have enough free space. Leashless needs the model's size plus a little extra.</li>
+  <li>You can leave the app while it downloads. It keeps going in the background and picks up where it stopped if the connection drops.</li>
+  <li>If a file fails its check, Leashless downloads it again. If it keeps failing, tap <strong>Try Again</strong>.</li>
+</ul>
+
+<h2>Leashless closed or forgot earlier parts of a long chat</h2>
+<p>AI models use a lot of memory. If memory runs short, iOS may close the app. On very long chats, the model only sees the most recent part. Starting a new chat helps. A smaller model can also help on older iPhones.</p>
+
+<h2>How do I use web search?</h2>
+<p>Web search is optional and off by default. It uses Brave Search with your own API key (a code from Brave that lets Leashless search for you):</p>
+<ol>
+  <li>Get a key from <a href="https://brave.com/search/api/">brave.com/search/api</a>. Brave asks for a credit card, but includes about $5 of free credit each month (roughly 1,000 searches).</li>
+  <li>In Leashless, tap the menu button at the top left, then the gear to open Settings. Paste the key under Web Search, tap <strong>Done</strong>, then tap the chat to close the menu.</li>
+  <li>Tap <strong>Search</strong> in the message box. The first time, Leashless asks before it searches. If you chose <strong>Not Now</strong>, turn on <strong>Allow web search</strong> in Settings &gt; Web Search.</li>
+</ol>
+<p>Only your question is sent to Brave, never your chat history. You can switch web search off at any time in Settings.</p>
+
+<h2 id="age">Why does Leashless ask for my age range?</h2>
+<p>Leashless is rated 16+ on the App Store. On iOS 26 and later, it asks iOS for your age range, about once a year. If iOS says you're under 16, Leashless only shows a message that it's for people 16 and over, until your Apple Account shows you're 16 or over. While it's blocked, it checks again each time Leashless starts up. To check right away, swipe Leashless away in the app switcher and open it again.</p>
+<p>If you choose not to share, the app works as usual. Leashless keeps only the date of the answer and whether it said under 16, never your age. You can choose whether apps get your age range in Settings &gt; [your name] &gt; Personal Information &gt; Age Range for Apps.</p>
+
+<h2>Where are my chats?</h2>
+<p>Only on your iPhone, and in its backups if you use iCloud Backup or back up to a computer. To delete a chat, swipe it in the chat list, or touch and hold it. Deleting the app deletes all chats on the phone.</p>
+
+<h2>Can I trust the answers?</h2>
+<p>Answers come from an AI and can be wrong. Check anything important, and don't rely on it for medical, legal or money decisions.</p>
+
+<h2>Credits</h2>
+<p>Leashless uses AI models from OpenBMB (MiniCPM5), Qwen at Alibaba Cloud (Qwen3.5) and Google (Gemma 4), all under the Apache 2.0 license, and runs them with Apple's MLX. Full credits and licenses are in Settings &gt; Licenses.</p>
+</main>
+</body>
+</html>

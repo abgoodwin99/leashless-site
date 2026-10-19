@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Leashless Privacy Policy</title>
+<style>
+  :root { --bg: #ffffff; --text: #1c1c1e; --muted: #5b5b60; --line: #e2e2e6; --link: #b02a3a; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #141416; --text: #f2f2f4; --muted: #b0b0b6; --line: #2e2e33; --link: #f2737a; }
+  }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 8px; }
+  h2 { font-size: 1.25rem; line-height: 1.3; margin: 36px 0 8px; padding-top: 20px; border-top: 1px solid var(--line); }
+  p, ul, ol { margin: 0 0 14px; }
+  ul, ol { padding-left: 1.2em; }
+  li { margin-bottom: 6px; }
+  a { color: var(--link); }
+  .muted { color: var(--muted); font-size: 0.95rem; }
+  nav { font-size: 0.95rem; margin-bottom: 24px; }
+</style>
+</head>
+<body>
+<main>
+<nav><a href="index.html">Leashless</a> · <a href="support.html">Support</a></nav>
+<h1>Privacy Policy</h1>
+<p class="muted">Leashless for iPhone. Last updated 19 October 2026.</p>
+
+<p><strong>The short version:</strong> Leashless runs its AI on your iPhone. Your chats stay on your iPhone. If you turn on web search, your question is sent to Brave Search. The app sends no data to me. There are no accounts, no ads, no analytics and no tracking.</p>
+
+<h2>Who makes Leashless</h2>
+<p>Leashless is made by Alexander Goodwin, an individual developer. In this policy, "I" and "me" mean him. You can reach me at <a href="mailto:support@leashless.info">support@leashless.info</a>.</p>
+
+<h2>What I collect</h2>
+<p>Nothing through the app. Leashless has no server of its own. It does not send me your chats, your questions, your settings, crash reports or usage statistics. It has no ads and no tracking code, and it does not ask you to sign in.</p>
+<p>Two things can still reach me, outside the app:</p>
+<ul>
+  <li><strong>Emails you send me.</strong> See "Emails to me" below.</li>
+  <li><strong>Apple's reports.</strong> If you've turned on Share With App Developers (in Settings &gt; Privacy &amp; Security &gt; Analytics &amp; Improvements), Apple may share crash reports and anonymous usage figures with me. Leashless itself sends nothing.</li>
+</ul>
+
+<h2>What stays on your iPhone</h2>
+<ul>
+  <li><strong>Your chats,</strong> including their titles and, when you use Think, the AI's reasoning (the "Thought for…" section). They are saved on your iPhone until you delete them. Like other app data, they are included in your iPhone's backups (iCloud Backup or a backup on your computer), if you use backups. Leashless does not sync chats through iCloud.</li>
+  <li><strong>Your settings,</strong> such as the theme and the model you picked.</li>
+  <li><strong>Your Brave Search API key,</strong> if you add one. It is kept in the iOS Keychain and is set so it does not move to another device.</li>
+  <li><strong>The AI models.</strong> These are large files. They are left out of your backups.</li>
+  <li><strong>The age check result.</strong> Leashless keeps only the date iOS last answered and whether that answer said you were under 16. It never keeps your age range.</li>
+</ul>
+
+<h2>When Leashless uses the internet</h2>
+<p>The AI itself works without the internet. Leashless only goes online for the things below. Each of these services sees your iPhone's internet (IP) address, as any website you visit would.</p>
+<ul>
+  <li><strong>Downloading a model.</strong> Models come from Hugging Face. Leashless asks for fixed versions of the files and checks that each one exactly matches a fingerprint built into the app (a SHA-256 checksum) before using it. Nothing about you or your chats is sent, only the standard details any download includes (the app's name and version, your iOS version and your language setting).</li>
+  <li><strong>Web search, only if you turn it on.</strong> Web search is off until you add your own Brave Search API key and allow it. Leashless asks before the first search. When you search, Leashless sends Brave your question (shortened if very long), your API key and, for questions about recent events, a "past day" or "past week" filter. Like any app, the request also includes standard details such as the app's name and version, your iOS version and your language setting. Your chat history is never sent. Because the key is yours, Brave can link your searches to your Brave account. Brave says it keeps Search API queries for up to 90 days, for billing, troubleshooting and preventing abuse (see <a href="https://api-dashboard.search.brave.com/privacy-policy">Brave's Search API privacy notice</a>). Your use of Brave is between you and Brave, under Brave's own terms and privacy policy.</li>
+  <li><strong>Reading the search results.</strong> Leashless then loads the top few result pages straight from your iPhone, without showing them, and reads their text so the AI can answer from them. It also loads each site's small icon. These requests carry no cookies, and the pages and icons are not saved on your iPhone. The websites see a normal visit from an iPhone.</li>
+  <li><strong>Links you tap.</strong> Links in answers and source links open in Safari (or your default browser). From then on, that website's own privacy policy applies.</li>
+  <li><strong>The age check.</strong> On iOS 26 and later, Leashless asks iOS for your age range. This goes through Apple, under Apple's privacy policy. If you share it, iOS tells Leashless your age range. Leashless uses it only to check whether you are under 16, and keeps only that yes/no and the date.</li>
+</ul>
+<p>Hugging Face, Brave, the websites read during a search, and Apple (for the age check) each handle what they receive under their own privacy policies.</p>
+<p>Source links in saved chats are removed the next time Leashless starts fresh, for example after you swipe it away in the app switcher or restart your iPhone. Just switching away and back doesn't remove them. The answers stay.</p>
+<p>You can turn web search off at any time: go to Settings &gt; Web Search and turn off Allow web search.</p>
+
+<h2>Reporting a response</h2>
+<p>If you tap "Report This Response", Leashless opens an email to me in your own mail app. The email is filled in with a subject line, the app version and build number, and the name of the model in use. It does not include any of your chat. You choose what to add and whether to send it.</p>
+
+<h2>Emails to me</h2>
+<p>If you email me, from the report button or any other way, I receive your email address and what you wrote. I use it only to reply and to look into the problem, and I don't share it. I do this because you asked me to, and because answering you is in my legitimate interest. I delete support emails within 12 months after the matter is settled.</p>
+<p>You can ask to see, correct or delete what I hold about you, or object to how I use it, by emailing <a href="mailto:support@leashless.info">support@leashless.info</a>. If you live in the EU or UK, you can also complain to your local data protection authority.</p>
+
+<h2>Age</h2>
+<p>Leashless is for people aged 16 and over. On iOS 26 and later, if iOS says you are under 16, Leashless shows only a message that it is for people 16 and over. If you choose not to share your age range, Leashless works as usual. You can choose whether apps get your age range in Settings &gt; [your name] &gt; Personal Information &gt; Age Range for Apps. Deleting the app removes the saved answer. Leashless is not for children. If someone under 16 emails me, I will delete the email once I know.</p>
+
+<h2>Deleting your data</h2>
+<ul>
+  <li>Delete a chat from the chat list (swipe it, or touch and hold it). It is removed from the app straight away.</li>
+  <li>Delete a model in Settings.</li>
+  <li>Clear the Brave Search API key field in Settings to remove the key.</li>
+  <li>Deleting the app removes your chats, settings and models from your iPhone. iOS can keep the Brave Search API key in the Keychain after the app is deleted, so clear the key field in Settings first. Copies in older backups stay until those backups are replaced or deleted.</li>
+</ul>
+<p>I hold none of your data, except emails you sent me, which I'll delete on request.</p>
+
+<h2>This website</h2>
+<p>This website has no cookies, scripts or analytics. It is hosted on GitHub Pages. GitHub records visitors' IP addresses for security, under GitHub's own privacy statement.</p>
+
+<h2>Do Not Track</h2>
+<p>Leashless and this website don't track you across apps or websites, so Do Not Track signals change nothing.</p>
+
+<h2>AI answers</h2>
+<p>Answers are written by an AI model running on your iPhone. They can be wrong. Don't rely on them for medical, legal or money decisions.</p>
+
+<h2>Changes to this policy</h2>
+<p>If Leashless starts handling data in a new way, I will update this page and the date at the top before that version of the app is released.</p>
+
+<h2>Contact</h2>
+<p>Questions about privacy: <a href="mailto:support@leashless.info">support@leashless.info</a>.</p>
+</main>
+</body>
+</html>
