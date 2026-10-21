@@ -48,7 +48,7 @@
   <li><strong>Your settings,</strong> such as the theme and the model you picked.</li>
   <li><strong>Your Brave Search API key,</strong> if you add one. It is kept in the iOS Keychain and is set so it does not move to another device.</li>
   <li><strong>The AI models.</strong> These are large files. They are left out of your backups.</li>
-  <li><strong>The age check result.</strong> Leashless keeps only the date iOS last answered and whether that answer said you were under 16. It never keeps your age range.</li>
+  <li><strong>The age check result.</strong> Leashless keeps only the date iOS last answered and whether that answer said you were under 16. Where a US state law requires a parent's approval before a teen uses free web search, it also keeps whether that approval is needed and whether it was given, and, where a law requires adults to be told about a big change, whether that notice was shown. It never keeps your age range.</li>
 </ul>
 
 <h2>When Leashless uses the internet</h2>
@@ -63,9 +63,9 @@
   </li>
   <li><strong>Reading the search results.</strong> Leashless then loads the top few result pages straight from your iPhone, without showing them, and reads their text so the AI can answer from them. It also loads each site's small icon. These requests carry no cookies, and the pages and icons are not saved on your iPhone. The websites see a normal visit from an iPhone.</li>
   <li><strong>Links you tap.</strong> Links in answers and source links open in Safari (or your default browser). From then on, that website's own privacy policy applies.</li>
-  <li><strong>The age check.</strong> On iOS 26 and later, Leashless asks iOS for your age range. This goes through Apple, under Apple's privacy policy. If you share it, iOS tells Leashless your age range. Leashless uses it only to check whether you are under 16, and keeps only that yes/no and the date.</li>
+  <li><strong>The age check.</strong> On iOS 26 and later, Leashless asks iOS for your age range. This goes through Apple, under Apple's privacy policy. If you share it, iOS tells Leashless your age range. Leashless uses it only to check whether you are under 16, and keeps only that yes/no and the date. On iOS 26.4 and later, just before a free web search, Leashless also asks iOS whether a US state law needs a parent's approval or a notice first. Only if one does, it asks the App Store which version you first installed, and a parent's approval request goes through Apple.</li>
 </ul>
-<p>Hugging Face, Brave, Cloudflare, the websites read during a search, and Apple (for DeviceCheck and the age check) each handle what they receive under their own privacy policies.</p>
+<p>Hugging Face, Brave, Cloudflare, the websites read during a search, and Apple (for DeviceCheck, the age check and these state-law checks) each handle what they receive under their own privacy policies.</p>
 <p>Source links in saved chats are removed the next time Leashless starts fresh, for example after you swipe it away in the app switcher or restart your iPhone. Just switching away and back doesn't remove them. The answers stay.</p>
 <p>You can turn web search off at any time: go to Settings &gt; Web Search and turn off Allow web search.</p>
 
